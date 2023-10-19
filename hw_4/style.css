@@ -4,10 +4,7 @@ height: 100%;
 display: flex;
 /* align-items: center;
 justify-content: center; */
-
-
 }
-
 form {
     min-height: 700px;
 height: auto;
@@ -15,35 +12,27 @@ width: 100%;
 max-width: 700px;
 background-color: rgb(195, 193, 193);
 padding: 30px;
-
 }
-
 .gender {
     display: flex;
     align-items: center;
 }
-
 .gender h4 {
 width: 50%;
     height: 30px;
     display: flex;
     align-items: center; 
-
 }
-
-
 label {
     display: flex;
 align-items: center;
 }
-
 label h4, input {
     width: 50%;
     height: 30px;
     display: flex;
     align-items: center; 
 }
-
 .radio {
     display: flex;
     align-items: center;
