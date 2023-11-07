@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+}
+
+div.title {
+  width: 450px;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+div.title h3 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #898F8F;
+}
+div.title h1 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: #FFCC00;
+}
+div.title .line-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 440px;
+  align-self: flex-end;
+}
+div.title .line-container .line {
+  width: 210px;
+  height: 1px;
+  border: 1px solid #FFCC00;
+}
+div.title .line-container img {
+  width: 20px;
+  height: auto;
+}
+
+main {
+  width: 1030px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: baseline;
+  gap: 100 px;
+}
+main .pic {
+  width: 430px;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to right, #FFCC00 0, #FFCC00 80px, transparent 80px, transparent 350px, #FFCC00 350px, #FFCC00 430px) 1;
+}
+main .vertical-line {
+  width: 3px;
+  height: 560px;
+  background-color: #FFCC00;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+main .content {
+  width: 430px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: flex-end;
+  flex-direction: column;
+}
+main .content h1 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  color: #666666;
+}
+main .content .short-line {
+  width: 100px;
+  height: 1px;
+  border: 1px solid #FFCC00;
+}
+main .content h2 {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+}
+main .content p {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+}
+main .content button {
+  width: 118px;
+  height: 24px;
+  border: 1px solid #FFCC00;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */
