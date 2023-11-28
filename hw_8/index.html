@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HW_8</title>
+</head>
+<body>
+  <section class="box">
+    <form action="#" method="get" name="box1">
+        <h1>Create an Account</h1>
+            <div class="username">
+                <label for="">
+                    <h2>First name</h2>
+                    <input type="text" name="getname" placeholder="first name" required>
+                </label>
+                <label for="">
+                    <h2>Last name</h2>
+                    <input type="text" name="getname" placeholder="last name" required>
+                </label>
+            </div>
+            <div class="email">
+                <label for="email">
+                    <h2>Email</h2>
+                    <input type="text" name="getemail" placeholder="email" required>
+                    <p>We'll never share your email with anyone else.</p>
+                </label>
+            </div>
+            <div class="radio">
+                <div class="wrapperradio">
+                    <label for="male">
+                        <input type="radio" id="male" name="getradio">
+                        <div class="check"></div>
+                        <h2>Male</h2>
+                    </label>
+                </div>
+                <div class="wrapperradio">    
+                    <label for="female">                    
+                        <input type="radio" id="female" name="getradio">
+                        <div class="check"></div>
+                        <h2>Female</h2>
+                    </label>
+                </div>
+            </div>
+            <div class="username">
+                <label for="">
+                    <h2>Country</h2>
+                    <div class="wrapper">
+                    <select name="coutnry" id="coutnry">
+                        <option value="ukraine">Ukraine</option>
+                        <option value="poland">Poland</option>
+                        <option value="lithuania">Lithuania</option>
+                    </select>
+                    <img src="img/arrows.svg" alt="">
+                </div>
+                </label>
+                <label for="">
+                    <h2>City</h2>
+                    <input type="text" name="getname" placeholder="city" required>
+                </label>
+            </div>
+            <button class="signup">Sign up</button>
+            <div class="bottomtext">
+                <p>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#" class="bottomlink">Terms of Use</a> and <a href="#" class="bottomlink">Privacy Policy</a>.</p>
+            </div>
+            <div class="line"></div>
+            <div class="footer">
+                <p>Have an accont?</p>
+                <a href="#">Log in</a>
+            </div>
+        </form>
+        
+    </section>
+    <section class="box">
+        <form action="#" method="get" name="box1">
+            <h1>Profile</h1>
+            <div class="upload">
+                <div class="img">
+                    <img src="img/Image.png" alt="img">
+                </div>
+                <div class="pictureplaces"></div>
+                    <div class="uppoadpicturestaff">
+                        <div class="uppoadpicture">
+                        <label for="picture" >
+                        <input type="file" id="photo" name="photo" accept="image/*"> 
+                        </label>
+                        <img src="img/camera.svg" alt="">
+                        </div>
+                        
+                        <p>Up to 1 MB (300x300 px)</p>
+                    </div>
+                    <div class="deletepicture">
+                        <label for="delete-photo">
+                            <input type="file" id="delete-photo" name="delete-photo">
+                        </label>
+                        <div class="trash-icon">
+                            <img src="img/Trash.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="username">
+                <label for="">
+                    <h2>Name</h2>
+                    <input type="text" name="getname" placeholder="name" required>
+                </label>
+                <label for="">
+                    <h2>Email</h2>
+                    <input type="text" name="getname" placeholder="email" required>
+                </label>
+            </div>
+            <div class="username">
+                <label for="">
+                    <h2>Country</h2>
+                    <div class="wrapper">
+                    <select name="coutnry" id="coutnry">
+                        <option value="ukraine">Ukraine</option>
+                        <option value="poland">Poland</option>
+                        <option value="lithuania">Lithuania</option>
+                    </select>
+                    <img src="img/arrows.svg" alt="">
+                </div>
+                </label>
+                <label for="">
+                    <h2>City</h2>
+                    <input type="text" name="getname" placeholder="city" required>
+                </label>
+            </div>
+            <div class="username">
+                <label for="">
+                    <h2>Zip Code</h2>
+                    <input type="text" name="getname" placeholder="zip code" required>
+                </label>
+                <label for="">
+                    <h2>Phone Number</h2>
+                    <input type="text" name="getname" placeholder="phone" required>
+                </label>
+            </div>
+            <button class="update-button">Update</button>
+
+        </form>
+    </section>
+</body>
+</html>
