@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: #EFEEF3;
+}
+.header-inner {
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 30px; 
+}
+h1 {
+    margin-left: 10px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #16133D;
+}
+main {
+    width: 1170px;
+    height: 461px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+:root {
+    --color-1: #D1E7FF;
+    --color-2: #D1E7FF;
+    --color-3: #E8F3FF;
+    --color-4: #B9DCFF;
+    --color-5: #D1E7FF;
+    --color-6: #B9DCFF;
+    --color-7: #B9DCFF;
+    --color-8: #007FFC;
+  }
+  :root {
+    --color1-1: #E1F4F5;
+    --color1-2: #CAEFF2;
+    --color1-3: #F4FEFF;
+    --color1-4: #CAEFF2;
+    --color1-5: #CAEFF2;
+    --color1-6: #CAEFF2;
+    --color1-7: #52C29D;
+  }
+svg:hover {
+    --color-1: #E1F4F5;
+  --color-2: #E1F4F5;
+  --color-3: #F4FEFF;
+  --color-4: #CAEFF2;
+  --color-5: #E1F4F5;
+  --color-6: #CAEFF2;
+  --color-7: #CAEFF2;
+  --color-8: #52C29D; 
+}
+svg:hover {
+    --color1-1: #D1E7FF;
+    --color1-2: #E8F3FF;
+    --color1-3: #F4FEFF;
+    --color1-4: #D1E7FF;
+    --color1-5: #B9DCFF;
+    --color1-6: #B9DCFF;
+    --color1-7: #007FFC;
+}
+.services {
+    width: 100%;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start; 
+    justify-content: flex-start; 
+}
+.items {
+    max-width: 1170px;
+    width: 100%;
+    height: 340px;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.services p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7690A8;
+}
+.services h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #16133D;
+    margin-left: 0;
+}
+.item {
+    width: 100%;
+    min-height: 340px;
+    height: auto:
+    border: 1 solid #B9DCFF;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start; 
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #E5EAF4;
+    padding: 30px;
+}
+.item:hover {
+    border: 1px solid #3DB370;
+    --color-1: #E1F4F5;
+    --color-2: #E1F4F5;
+    --color-3: #F4FEFF;
+    --color-4: #CAEFF2;
+    --color-5: #E1F4F5;
+    --color-6: #CAEFF2;
+    --color-7: #CAEFF2;
+    --color-8: #52C29D; 
+    --color1-1: #D1E7FF;
+    --color1-2: #E8F3FF;
+    --color1-3: #F4FEFF;
+    --color1-4: #D1E7FF;
+    --color1-5: #B9DCFF;
+    --color1-6: #B9DCFF;
+    --color1-7: #007FFC;
+
+}
+.item p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px:
+    color: #16133D;
+}
+.item h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #16133D;
+    margin-left: 0;
+}
+.items a {
+    text-decoration: none; 
+    color: #3DB370; 
+}
+.item a p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3DB370;
+}
+.square {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100vw;
+    height: 183px;
+    background-color: #16133D;
+    display: flex;
+    align-items: center;
+    padding: 35px 0; 
+
+}
+.footer-inner {
+    width: 1170px;
+    height: 113px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start; 
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    height: 30px; 
+}
+.footer-inner h1 {
+    margin-left: 10px; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.sm a {
+    margin: 0 5px; 
+}
